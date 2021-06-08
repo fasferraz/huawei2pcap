@@ -74,7 +74,7 @@ def main():
             print('Error creating file to save')
             exit()
     else:
-        print('Usage: huawei2pcap_gsmtap <file_csv_to_read> <file_pcap_to_save>')
+        print('Usage: python3 huawei2pcap.py <file_csv_to_read> <file_pcap_to_save>')
         exit()
          
     s.write(globalheader_ip)
